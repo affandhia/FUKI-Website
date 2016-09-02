@@ -912,7 +912,7 @@ function onepress_customize_register( $wp_customize ) {
 					array(
 						'sanitize_callback' => 'onepress_sanitize_text',
 						'mod' 				=> 'html',
-						'default'           => wp_kses_post('Rumah FUKI<br/><span class="js-rotating">Fasilkom UI| 016</span>', 'onepress'),
+						'default'           => wp_kses_post('Rumah Fuki <span class="js-rotating">FASILKOM UI 2016|FASILKOM UI 2016</span>', 'onepress'),
 					)
 				);
 				$wp_customize->add_control( new OnePress_Editor_Custom_Control(

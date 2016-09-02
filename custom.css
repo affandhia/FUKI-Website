@@ -1,3 +1,13 @@
+body {
+  background: #718D26;
+  height: 100%; }
+
+header.site-header {
+  background: #F4FFD7; }
+
+section#about {
+  background: #F4FFD7; }
+
 #hero .container {
   border-right: 2px solid white;
   padding-right: 10px; }

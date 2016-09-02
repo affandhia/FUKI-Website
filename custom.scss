@@ -1,3 +1,25 @@
+$lightGreenColor : #F4FFD7;
+$whiteColor : #FFFFFF;
+$pinkColor : #FE93BF;
+$greenColor : #718D26;
+
+
+
+body {
+	background: $greenColor;
+	height: 100%;
+}
+
+header.site-header{
+	background: $lightGreenColor;
+}
+
+section{
+	&#about {
+		background: $lightGreenColor;
+	}
+}
+
 #hero {
 	.container {
 		border-right: 2px solid white;
