@@ -1,0 +1,14 @@
+#hero {
+	.container {
+		border-right: 2px solid white;
+		padding-right: 10px;
+	}
+
+	* {
+		text-align: right;
+	}
+
+	h2.hero-large-text {
+		font-size: 3rem;
+	}
+}
