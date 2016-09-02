@@ -17,12 +17,17 @@ header.site-header{
 section{
 	&#about {
 		background: $lightGreenColor;
+
+		> .container {
+			margin-top: 4.375rem;
+		}
+
 	}
 }
 
 #hero {
 	.container {
-		border-right: 2px solid white;
+		border-right: 2px solid $lightGreenColor;
 		padding-right: 10px;
 	}
 
@@ -32,5 +37,28 @@ section{
 
 	h2.hero-large-text {
 		font-size: 3rem;
+		color: $lightGreenColor;
+	}
+
+	.hero-small-text {
+		font-size: .7rem;
+	}
+
+	.btn-theme-primary {
+		background: $pinkColor;
+		color: $whiteColor;
+
+	}
+
+	.btn-secondary-outline {
+		color: $pinkColor;
+		border-color: $pinkColor;
+	}
+
+}
+
+#about {
+	.wow {
+		text-align: center;
 	}
 }

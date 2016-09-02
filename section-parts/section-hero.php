@@ -72,7 +72,7 @@ if ( $is_parallax ) {
 			break;
 			default:
 				$hcl1_largetext  = get_theme_mod( 'onepress_hcl1_largetext', wp_kses_post('Rumah Fuki <span class="js-rotating">FASILKOM UI 2016|FASILKOM UI 2016</span>', 'onepress' ));
-				$hcl1_smalltext  = get_theme_mod( 'onepress_hcl1_smalltext', wp_kses_post('Morbi tempus porta nunc <strong>pharetra quisque</strong> ligula imperdiet posuere<br> vitae felis proin sagittis leo ac tellus blandit sollicitudin quisque vitae placerat.', 'onepress') );
+				$hcl1_smalltext  = get_theme_mod( 'onepress_hcl1_smalltext', wp_kses_post('FUKI (Forum Ukhuwah dan Kajian Islam), adalah Lembaga Dakwah Fakultas yang bertempat di Fakultas Ilmu Komputer Universitas Indonesia (Fasilkom UI). Dengan modal core competence di bidang IT, kami mempunyai mimpi besar untuk menyiarkan kekerenan agama Islam ke seluruh dunia! Mimpi besar itu diawali dengan langkah yang cukup besar, menyiarkan Islam ke seluruh elemen Fasilkom.', 'onepress') );
 				$hcl1_btn1_text  = get_theme_mod( 'onepress_hcl1_btn1_text', esc_html__('Our Services', 'onepress') );
 				$hcl1_btn1_link  = get_theme_mod( 'onepress_hcl1_btn1_link', esc_url( home_url( '/' )).esc_html__('#services', 'onepress') );
 				$hcl1_btn2_text  = get_theme_mod( 'onepress_hcl1_btn2_text', esc_html__('Get Started', 'onepress') );

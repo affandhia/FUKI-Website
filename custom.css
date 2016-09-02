@@ -7,13 +7,30 @@ header.site-header {
 
 section#about {
   background: #F4FFD7; }
+  section#about > .container {
+    margin-top: 4.375rem; }
 
 #hero .container {
-  border-right: 2px solid white;
+  border-right: 2px solid #F4FFD7;
   padding-right: 10px; }
 
 #hero * {
   text-align: right; }
 
 #hero h2.hero-large-text {
-  font-size: 3rem; }
+  font-size: 3rem;
+  color: #F4FFD7; }
+
+#hero .hero-small-text {
+  font-size: .7rem; }
+
+#hero .btn-theme-primary {
+  background: #FE93BF;
+  color: #FFFFFF; }
+
+#hero .btn-secondary-outline {
+  color: #FE93BF;
+  border-color: #FE93BF; }
+
+#about .wow {
+  text-align: center; }
