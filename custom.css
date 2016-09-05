@@ -1,36 +1,101 @@
+html, body {
+  background: #e0e6d1; }
+
 body {
-  background: #718D26;
+  background: #658117;
   height: 100%; }
 
+.site {
+  background: #FFFFFF;
+  color: #658117; }
+
 header.site-header {
-  background: #F4FFD7; }
+  background: #e2ff93; }
+  header.site-header .site-text-logo {
+    color: #a6ce39; }
+  header.site-header .onepress-menu a:hover {
+    color: #ff93bf; }
 
-section#about {
-  background: #F4FFD7; }
-  section#about > .container {
-    margin-top: 4.375rem; }
-
-#hero .container {
-  border-right: 2px solid #F4FFD7;
+section#hero .container {
+  border-right: 2px solid #e2ff93;
   padding-right: 10px; }
 
-#hero * {
+section#hero * {
   text-align: right; }
 
-#hero h2.hero-large-text {
+section#hero h2.hero-large-text {
   font-size: 3rem;
-  color: #F4FFD7; }
+  color: #e2ff93; }
 
-#hero .hero-small-text {
+section#hero .hero-small-text {
   font-size: .7rem; }
 
-#hero .btn-theme-primary {
-  background: #FE93BF;
-  color: #FFFFFF; }
+section#hero .btn {
+  border-radius: .5rem; }
+  section#hero .btn.btn-theme-primary {
+    background: #ff93bf;
+    color: #FFFFFF; }
+  section#hero .btn.btn-secondary-outline {
+    color: #ff93bf;
+    border-color: #ff93bf; }
 
-#hero .btn-secondary-outline {
-  color: #FE93BF;
-  border-color: #FE93BF; }
+section#about .section-title-area {
+  color: #A1CE25; }
 
-#about .wow {
+section#about .wow {
   text-align: center; }
+
+section#about > .container {
+  margin-top: 4.375rem; }
+
+section#news {
+  background: #658117; }
+  section#news * {
+    color: #FFFFFF; }
+  section#news .list-article {
+    border-bottom: none; }
+    section#news .list-article .list-article-meta a {
+      color: #ff93bf; }
+    section#news .list-article .list-article-thumb {
+      float: none; }
+  section#news .all-news .btn {
+    border-radius: 5px;
+    color: #ff93bf;
+    border-color: #ff93bf; }
+    section#news .all-news .btn:hover {
+      border-color: #FFFFFF;
+      color: #FFFFFF;
+      background: #ff93bf; }
+
+.footer-connect .footer-logo .media > :nth-child(2) {
+  border-left: 1px solid #e2ff93;
+  padding-left: .5em;
+  text-align: left; }
+  .footer-connect .footer-logo .media > :nth-child(2) .media-heading {
+    color: #e2ff93; }
+  .footer-connect .footer-logo .media > :nth-child(2) .media-subheading {
+    color: #e0e6d1; }
+  .footer-connect .footer-logo .media > :nth-child(2) .tagline {
+    color: #FFFFFF; }
+
+hr.section-separator-1 {
+  margin: -1em 0 .5em 0;
+  position: relative;
+  text-align: center;
+  border-bottom: 1px solid #658117; }
+  hr.section-separator-1:after {
+    content: "...";
+    display: inline-block;
+    min-width: 6em;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+    border: 1px solid;
+    border-radius: 5px;
+    z-index: 1; }
+
+hr.section-separator-2 {
+  border-bottom: 2px dashed #658117;
+  position: relative; }

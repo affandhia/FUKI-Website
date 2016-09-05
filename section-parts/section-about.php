@@ -114,7 +114,7 @@ if (!empty($page_ids)) {
                         if ($n == 1) {
                             $class .= ' col-sm-12 ';
                         } else {
-                            $class .= ' col-sm-6 ';
+                            $class .= ' col-sm-12 ';
                         }
                         if ($j >= $num_col) {
                             $j = 1;
@@ -167,8 +167,11 @@ if (!empty($page_ids)) {
             </div>
         </div>
         <?php do_action('onepress_section_after_inner', 'about'); ?>
+
         <?php if (!onepress_is_selective_refresh()) { ?>
             </section>
         <?php } ?>
+        <hr class='section-separator-1'/>
+        <hr class='section-separator-2'/>
     <?php }
 }
