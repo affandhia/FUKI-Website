@@ -54,6 +54,9 @@ section#news {
     color: #FFFFFF; }
   section#news .list-article {
     border-bottom: none; }
+    section#news .list-article.custom-article {
+      padding-left: 1rem;
+      padding-right: 1rem; }
     section#news .list-article .list-article-meta a {
       color: #ff93bf; }
     section#news .list-article .list-article-thumb {

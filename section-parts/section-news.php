@@ -50,7 +50,7 @@ $desc = get_theme_mod( 'onepress_news_desc' );
 									 * If you want to override this in a child theme, then include a file
 									 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 									 */
-									get_template_part( 'template-parts/content', 'list' );
+									get_template_part( 'template-parts/content', 'frontpage' );
 								?>
 
 							<?php endwhile; ?>
